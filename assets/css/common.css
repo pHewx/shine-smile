@@ -1,0 +1,67 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1.8rem;
+    line-height: 1.66;
+    color: var(--white);
+    padding: 15px 0;
+    text-decoration: none;
+    background-color: var(--light-blue);
+    border: none;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.card {
+    background-color: var(--white);
+}
+
+.logo-page {
+    width: 86px;
+    height: 31px;
+}
+
+.content {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--dark-blue);
+}
+
+.desc-v1, .desc-v2 {
+    font-weight: 300;
+    color: #575F66;
+}
+
+.desc-v1 {
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+.desc-v2 {
+    line-height: 1.75;
+}
