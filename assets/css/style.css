@@ -689,6 +689,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition-duration: 0.5s;
+}
+
+.blog .right .card--blog:hover .info{
+    border-color: var(--white);
 }
 
 .blog .content .right .headding {
